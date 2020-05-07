@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
      * Método que instancia el objeto del servicio de Retrofit para hacer las peticiones http
      * **/
     private void getMovies(){
-        Call<ArrayList<Movie>> call = ApiAdapter.getApiService().getMovies(3);
+        Call<ArrayList<Movie>> call = ApiAdapter.getApiService().getMovies();
         call.enqueue(new Callback<ArrayList<Movie>>() {
             @Override
             public void onResponse(Call<ArrayList<Movie>> call, Response<ArrayList<Movie>> response) {
