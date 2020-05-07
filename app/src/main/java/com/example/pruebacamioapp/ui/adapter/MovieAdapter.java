@@ -1,3 +1,6 @@
+/**
+ * Adaptador para renderizar el contenido obtenido en las peticiones de lista de peliculas
+ * **/
 package com.example.pruebacamioapp.ui.adapter;
 
 import android.content.Context;

@@ -1,3 +1,6 @@
+/**
+ * Modelo de datos para la lista de películas
+ * **/
 package com.example.pruebacamioapp.model;
 
 public class Movie {

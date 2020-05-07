@@ -1,3 +1,6 @@
+/**
+ * Interfaz que determina cada ruta específica o endpoints para las peticiones
+ * **/
 package com.example.pruebacamioapp.io;
 
 import com.example.pruebacamioapp.model.Movie;
